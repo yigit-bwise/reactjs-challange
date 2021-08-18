@@ -1,4 +1,9 @@
-# Buddywise Reactjs Coding Challenge [Spotify Music 🎧] &nbsp; ![time](https://img.shields.io/badge/%E2%8F%B0-60m-blue) 
+# Buddywise Reactjs Coding Challenge [Spotify Music 🎧] &nbsp; 
+
+- You are kindly given exactly 1 week to return the assignment, once the assignment is in your mailbox.
+- Reccomended time to finish: 60-90 mins!
+- To start, simply fork this repo and build your solution there.
+- Once you are finished, please send us a link to the repo with your solution.
 
 &nbsp;
 # Goals/Outcomes ✨
