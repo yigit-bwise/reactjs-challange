@@ -1,4 +1,4 @@
-# Buddywise Reactjs Coding Challenge [Spotify Music 🎧] &nbsp; 
+ # Buddywise Reactjs Coding Challenge [Spotify Music 🎧] &nbsp; 
 
 - You are kindly given exactly 1 week to return the assignment, once the assignment is in your mailbox.
 - Reccomended time to finish: 60-90 mins!
