@@ -16,20 +16,18 @@ export default class Discover extends Component {
   }
 
   async componentDidMount() {
-    const token = await getToken().then(tokenResponse => {      
-      return tokenResponse.data.access_token;
-    });
+    await getToken()
     
-    await newReleases(token).then(newReleasesResponse => {
-      this.setState({ newReleases: newReleasesResponse.data.albums.items }) 
+    await newReleases().then(newReleasesResponse => {
+      this.setState({ newReleases: newReleasesResponse.items }) 
     });
 
-    await featuredPlaylists(token).then(playlistsResponse => {
-      this.setState({ playlists: playlistsResponse.data.playlists.items }) 
+    await featuredPlaylists().then(playlistsResponse => {
+      this.setState({ playlists: playlistsResponse.items }) 
     });
 
-    await categories(token).then(categoriesResponse => {
-      this.setState({ categories: categoriesResponse.data.categories.items }) 
+    await categories().then(categoriesResponse => {
+      this.setState({ categories: categoriesResponse.items }) 
     });
   }
 

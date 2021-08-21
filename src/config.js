@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default {
   api: {
     baseUrl: 'https://api.spotify.com/v1',
